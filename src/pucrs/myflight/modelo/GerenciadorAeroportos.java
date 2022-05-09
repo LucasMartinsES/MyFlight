@@ -1,6 +1,7 @@
 package pucrs.myflight.modelo;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class GerenciadorAeroportos {
     private ArrayList<Aeroporto> aeroportos;
@@ -27,5 +28,14 @@ public class GerenciadorAeroportos {
             }
         }
         return null;
+    }
+
+    /*
+    / Metodo que ordena os aeroportos de acordo com seus nomes
+    */
+
+    public void ordemNomeAeroportos(){
+        Collections.sort(aeroportos);
+        System.out.println(aeroportos);
     }
 }

@@ -76,5 +76,11 @@ public class App {
 		} else {
 			System.out.println("Aeroporto nao presente nos cadastros!");
 		}
+
+
+		System.out.println("\n");
+		System.out.println("Ordem por nome de aeroportos");
+		gerAeroportos.ordemNomeAeroportos();
+
 	}
 }

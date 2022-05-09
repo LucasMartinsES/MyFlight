@@ -16,4 +16,5 @@ public class Geo {
 	public double getLongitude() {
 		return longitude;
 	}
+
 }

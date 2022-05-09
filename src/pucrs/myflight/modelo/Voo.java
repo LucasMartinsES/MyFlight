@@ -18,6 +18,15 @@ public class Voo {
 		this.duracao = duracao;
 		this.status = Status.CONFIRMADO; // default é confirmado
 	}
+
+	/*
+	/ Modificado por Lucca - 7/05/2022 as 19:05
+	/ Foi adicionado um novo construtor com apenas dois parametros, conforme pedido no exercicio 1 sobre sobrecarga
+	*/
+	public Voo(Rota rota, Duration duracao){			
+		this.rota = rota;
+		this.duracao = duracao;
+	}
 	
 	public Rota getRota() {
 		return rota;
